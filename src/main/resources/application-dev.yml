@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: postgres
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+logging:
+  level:
+    dev.temez: debug
+
+jwt:
+  access-token:
+    secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B597031415927182820232023
+    lifetime: 1800000
+

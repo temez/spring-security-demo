@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: security-demo
+
+  profiles:
+    active: dev
+
+logging:
+  file:
+    path: ./logs/
+
+
